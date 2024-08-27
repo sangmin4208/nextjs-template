@@ -1,0 +1,30 @@
+{
+  "ignorePaths": [
+    "node_modules",
+    ".next",
+    "*.json",
+    "*.html",
+    "*.css",
+    "*.md",
+    "*.svg",
+    "*.stories.tsx"
+  ],
+  "files": [
+    "src/**/*.tsx",
+    "src/**/*.ts"
+  ],
+  "words": [
+    "autodocs",
+    "camelcase",
+    "clsx",
+    "lucide",
+    "lukemorales",
+    "nocompatible",
+    "sonner",
+    "tanstack",
+    "testid",
+    "todos",
+    "uidotdev",
+    "usehooks"
+  ]
+}

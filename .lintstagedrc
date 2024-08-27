@@ -1,0 +1,9 @@
+{
+  "*/**/*.{js,jsx,ts,tsx}": [
+    "vitest related --run",
+    "cspell 'src/**' --gitignore --no-progress --show-suggestions",
+    "prettier --write",
+    "eslint --fix"
+  ],
+  "*/**/*.{json,css,md}": ["prettier --write"]
+}
