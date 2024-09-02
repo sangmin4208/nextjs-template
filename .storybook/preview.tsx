@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import type { Preview } from '@storybook/react'
+import { INITIAL_VIEWPORTS, MINIMAL_VIEWPORTS } from '@storybook/addon-viewport'
 import { inter } from '../src/app/fonts'
 import { Providers } from '../src/app/providers'
 import RoutesLayout from '../src/app/(routes)/layout'
@@ -10,6 +11,12 @@ const preview: Preview = {
       matchers: {
         color: /(background|color)$/i,
         date: /Date$/i,
+      },
+    },
+    viewport: {
+      viewports: {
+        ...INITIAL_VIEWPORTS,
+        ...MINIMAL_VIEWPORTS,
       },
     },
   },
