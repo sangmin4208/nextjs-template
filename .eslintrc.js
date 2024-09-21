@@ -10,6 +10,7 @@ module.exports = {
     require.resolve('@vercel/style-guide/eslint/browser'),
     require.resolve('@vercel/style-guide/eslint/react'),
     require.resolve('@vercel/style-guide/eslint/next'),
+    'plugin:@tanstack/eslint-plugin-query/recommended',
     'plugin:storybook/recommended',
     'plugin:tailwindcss/recommended',
     'plugin:prettier/recommended',
